@@ -68,3 +68,18 @@ form.addEventListener('submit', function (e) {
   }
 });
 ```
+
+##project 3
+
+```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+
+  // consol.log(date.toLocaleTimeString());// i have to work on document not on console
+
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
